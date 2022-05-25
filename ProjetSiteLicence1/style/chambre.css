@@ -1,0 +1,67 @@
+body{background-color: rgb(176, 173, 119);}
+
+div.ordonne
+{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: stretch;
+		align-content: center;
+		background-color: gray;
+		text-align: center;
+
+}
+
+#logo
+{
+	display: block;
+	width:220px;
+	height:90px;
+}
+
+
+a
+{
+	color:gold;
+	text-decoration:none;
+}
+
+
+
+h1{
+    color:lime;
+	text-decoration: underline;
+}
+
+
+
+
+
+p.left {
+	display: flex;
+	float: left;
+	height: 20px;
+}
+
+p.right {
+	display: flex;
+	float: right;
+
+}
+
+#chambre {
+
+	display: block;
+	width:220px;
+	height:90px;
+}
+
+section {
+	padding: 50px;
+		display: block;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: center;
+		align-content: space-between;
+}

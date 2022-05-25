@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">     <head>
+    	<link rel="stylesheet" type= "text/css" href="../style/ligne.css" /> 
+		<title>ligne</title>
+
+	</head>
+	<body>
+		<header>	
+			<div class="ordonne">
+				<p class="resize"><a href="historique.html"><img id="logo"  src="../media/le-lounge.jpg" />HISTOIRIQUE </a></p>
+		
+				<p><a href="chambre.html"><img id="logo" src="../media/hotel-camayene-guinea.jpg"/>TARIFS DES CHAMBRES </a></p>	
+				<p><a href="resto.html"><img id="logo" src="../media/764psq2976.jpeg" alt=resto/> MENUS DU RESTAURANT</a></p>
+				
+			   <p><a href="natation.html"><img id="logo" src="../media/la-piscina.jpg" alt="pisc"/>TARIFS POUR LA PISCINE</a></p>
+				 <p><a href="ligne.html"><img id="logo" src="../media/i99425-hamburger.jpg" alt="pisc"/>COMMANDE EN LIGNE </a></p>
+				 <p><a href="quizz.html"><img id="logo" src="../media/depositphotos_53357707-stock-illustration-delivery-car.jpg" alt="pisc"/>Quizz</a></p>
+			</div>
+		</header>
+
+
+			<h1> Commandez en ligne !!! </h1>
+
+			<form id="form1" action="">
+				<fieldset>
+					<legend>Nos Menus avec les differents choix de Sandwitchs et boissons :</legend>
+					<p>Pour plus de renseignement sur nos Menus <a class="help" href="resto.html" >Cliquez ici</a></p>
+					<select class="yellow" name="menu1" onchange="choixsandwitch();">
+						<option>S&eacute;l&eacute;ctionner un Menu</option>                
+						<option>Le Menu pizza</option>
+						<option>Le Menu chawarma</option>
+						<option>Le Menu hamburger</option>
+				    </select>
+				   <select class="yellow" id="select2" name="menu2">
+					 <option></option>
+					 <option></option>
+					 <option></option>
+					 <option></option>
+					
+				 </select>
+				 <select id="frite" name="menu3">
+					<option>S&eacute;l&eacute;ctionner les Frites qui vous convient</option>
+					<option>Grande Frites</option>
+					<option>Moyenne Frites</option>
+					<option>Petite Frites</option>
+				 </select>
+				 <select id="color" name="menu4">
+					<option>S&eacute;l&eacute;ctionner votre Boisson</option>
+					<option>Coca</option>
+					<option>cocktail</option>
+					<option>Fanta</option>
+					<option>heineken</option>
+					<option>champagne</option>
+				 </select>
+				  <select id="color" name="menu5">
+					<option>S&eacute;l&eacute;ctionner la quantit&eacute; de votre Boisson</option>
+					<option>25cL</option>
+					<option>40cL</option>
+					<option>50cL</option>
+				 </select><br/>
+				 
+
+			 <p>
+			  <input type="submit" value="Valider ma Commande" onclick="test();" id="valid"/>
+			 </p>
+			</fieldset>
+	</form>
+
+
+		<footer>
+			<div class="left">
+				<a  href="natation.html"><img src="../media/backbouton.png" > </a>
+			</div>
+			<div class="right">
+			<a href="quizz.html"><img src="../media/imNext.png" > </a>
+			</div>	
+		</footer>
+
+		
+		<script type="text/javascript" src="../javascript/ligne.js"></script>
+		 
+	</body>
+</html>

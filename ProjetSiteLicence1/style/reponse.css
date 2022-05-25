@@ -1,0 +1,43 @@
+
+tfoot {text-align:center;}
+thead {text-align:center;}
+h1 {text-align:center;text-decoration:underline;}
+td {border:solid green 2px;width:500px; }
+th {border:solid green 2px;width:150px;
+	height:30px;}
+
+
+#table2 {border-collapse:collapse;
+		border:solid green 3px;
+		margin:auto;
+		margin-top:100px; 
+		}
+
+#table3 {border-collapse:collapse;
+		border:solid green 3px;
+		margin:auto;
+		margin-top:100px; 
+		}
+.class1{
+	margin-left: 80%;
+	margin-top: 1%;
+}
+
+#som{
+float:left;	
+width:5%;
+height:10%;
+border-radius: 20px;
+margin-right: 50%;	
+}
+#red{
+	background-color: black;
+	color:red;
+	color:white;
+	margin-left: 50%;
+	margin-right: 30%;
+}
+#green{
+	background-color: green;
+}
+

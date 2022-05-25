@@ -1,0 +1,82 @@
+body{background-color: rgb(176, 173, 119);}
+
+#logo
+{
+	display: block;
+	width:220px;
+	height:90px;
+}
+
+div.ordonne
+{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: stretch;
+		align-content: center;
+		background-color: gray;
+		text-align: center;
+
+}
+
+a
+{
+	color:gold;
+	text-decoration:none;
+}
+
+a.help {
+	color: red;
+}
+h1 { text-align:center;
+	text-decoration:none;
+	color: blue;
+	}
+
+fieldset {background-color:lightgrey;}
+legend { 
+	text-decoration:none;
+	font-weight:bold;
+	font-size:large;color:blue;
+	background-color:lightgrey;
+	text-align: center;
+}
+select { height:50px;font-weight:bold}       
+
+
+select.yellow { background-color:yellow;}
+
+#color { background-color:green;color:white;}
+#frite { background-color:blue;color:white;}
+
+
+
+#valid{ 
+	margin-left: 40%;
+	margin-top: 3%;
+	text-align: center;
+	background-color: green; color:white;
+	border-radius: 12px;
+
+
+
+}
+
+div.left {
+	display: flex;
+	float: left;
+
+}
+
+div.right {
+	display: flex;
+	float: right;
+}
+
+footer {
+	margin-top: 20%;
+}
+
+
+

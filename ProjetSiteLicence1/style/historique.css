@@ -1,0 +1,59 @@
+body{background-color: rgb(176, 173, 119);}
+
+div.ordonne
+{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: stretch;
+		align-content: center;
+		background-color: gray;
+		text-align: center;
+
+}
+
+#haut
+{
+	width:30%;
+	height:30%;
+	border-radius:1px;
+    padding-top:5%;
+    margin-right: 15%;
+}
+
+#logo
+{
+	display: block;
+	width:220px;
+	height:90px;
+}
+a
+{
+	color:rgb(241, 238, 237);
+	text-decoration: none;
+}
+
+
+ fieldset
+{
+	margin-left:25%;
+	width:auto;
+	height: auto;
+	background-color:lightgrey;
+	margin-right: 30%;
+}
+
+
+
+p.left {
+	display: flex;
+	float: left;
+	height: 20px;
+}
+
+p.right {
+	display: flex;
+	float: right;
+
+}

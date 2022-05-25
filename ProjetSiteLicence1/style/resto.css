@@ -1,0 +1,134 @@
+body{background-color: rgb(176, 173, 119);}
+
+
+fieldset
+{
+	position:absolute;
+	bottom:40%;
+	width:700px;
+	margin-left:25%;
+}
+
+#logo
+{
+	display: block;
+	width:220px;
+	height:90px;
+}
+
+div.ordonne
+{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: stretch;
+		align-content: center;
+		background-color: gray;
+		text-align: center;
+
+}
+
+a
+{
+	color:gold;
+	text-decoration:none;
+}
+
+#menu1
+{
+	float:left;
+	width: 20%;
+	
+}
+#menu2
+{
+	float:right;
+	width:20%;
+	
+}
+
+
+#menu3
+{
+	float:left;
+	width:20%;
+	margin-top: 5%;
+	margin-right: 75%;	
+}
+
+#menu4
+{
+	float:right;
+	width:20%;
+	margin-top:-15%;
+	padding-bottom: 20%; 
+}
+
+
+
+
+legend
+{
+	text-decoration:underline;
+	font-size:30px;
+	margin:auto;
+}
+
+.pizza fieldset{
+    display: none;
+}
+ 
+.pizza:hover fieldset
+{
+    display: block ;
+}
+
+.Hamburger  fieldset
+{
+    display:none;
+}
+.Hamburger:hover fieldset
+{
+    display:block;
+}
+.boisson fieldset
+{  display:none;
+}
+.boisson:hover fieldset
+{
+    display:block;
+}
+.chawarma fieldset
+{
+    display:none;
+}
+.chawarma:hover fieldset
+{
+    display:block;
+}
+
+#rens{text-align:center;
+	font-weight:bold;
+	font-size:large;
+	text-decoration:underline;}
+
+
+footer {
+	display: flex;
+	flex-direction: row;
+	margin-top: 50%;
+}
+
+
+div.left {
+	display: flex;
+	float: left;
+
+}
+
+div.right {
+	display: flex;
+	float: right;
+	margin-left: 92%;
+}
